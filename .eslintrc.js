@@ -133,6 +133,14 @@ module.exports = {
 				flattenTernaries: true,
 				proseWrap: "never",
 				htmlWhitespaceSensitivity: "ignore",
+				overrides: [
+					{
+						files: "*.html",
+						options: {
+							parser: "lwc"
+						}
+					}
+				]
 			},
 		],
 		"jsx-a11y/href-no-hash": "off",
