@@ -45,8 +45,8 @@ You can add these two scripts to your package.json to lint and/or fix:
 
 ```json
 "scripts": {
-  "lint": "eslint .",
-  "lint:fix": "eslint . --fix"
+  "lint": "    eslint . --ext js,jsx,ts,tsx",
+  "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix"
 },
 ```
 
@@ -79,7 +79,9 @@ module.exports = {
 }
 ```
 
-3. To use from the CLI, you can now run `eslint .` or configure your editor as we show next.
+3. To use from the CLI, you can now run `eslint . --ext js,jsx,ts,tsx` or configure your editor as we show next.
+
+> Note - currently you must specify the file extensions via `--ext` when you want to lint anything other than just `.js(x)`
 
 ## Settings
 
