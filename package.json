@@ -4,7 +4,7 @@
   "description": "ESLint, Prettier and TypeScript setup",
   "main": "index.js",
   "author": "Niklas Lagergren <lani@lani78.com> (https://lani78.com)",
-  "repository": "https://github.com/@lani78/eslint-config",
+  "repository": "https://github.com/lani78/eslint-config",
   "license": "MIT",
   "private": false,
   "scripts": {
