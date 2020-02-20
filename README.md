@@ -117,7 +117,7 @@ Once you have done one, or both, of the above installs. You probably want your e
 
 2. Now we need to setup some VS Code settings via `Code/File` → `Preferences` → `Settings`. It's easier to enter these settings while editing the `settings.json` file, so click the `{}` icon in the top right corner:
 
-```json
+```js
 {
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
