@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "    eslint . --cache --ext js,jsx,ts,tsx",
     "lint:fix": "eslint . --cache --ext js,jsx,ts,tsx --fix",
-    "prepublishOnly": "npm lint:fix",
+    "prepublishOnly": "npm run lint:fix",
     "postpublish": "npx install-peerdeps --global @lani78/eslint-config@latest",
     "ncu": "ncu",
     "ncu:u": "ncu -u"
