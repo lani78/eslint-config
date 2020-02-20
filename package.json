@@ -13,7 +13,8 @@
     "prepublishOnly": "npm run lint:fix",
     "postpublish": "npx install-peerdeps --global @lani78/eslint-config@latest",
     "ncu": "ncu",
-    "ncu:u": "ncu -u"
+    "ncu:u": "ncu -u",
+    "pub": "npm publish --access=public"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.20.0",
