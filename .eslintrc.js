@@ -62,5 +62,7 @@ module.exports = {
       },
     ],
     'no-unused-expressions': ['error', { allowShortCircuit: true }],
+    'no-useless-constructor': 'off',
+    '@typescript-eslint/no-useless-constructor': 'error'
   },
 };
