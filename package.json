@@ -1,6 +1,6 @@
 {
   "name": "@lani78/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint, Prettier and TypeScript setup",
   "main": "index.js",
   "author": "Niklas Lagergren <lani@lani78.com> (https://lani78.com)",
