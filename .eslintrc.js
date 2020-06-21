@@ -64,7 +64,9 @@ module.exports = {
     'no-unused-expressions': ['error', { allowShortCircuit: true }],
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
-    'no-plusplus': ["error", { "allowForLoopAfterthoughts": true }]
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
   },
-  settings: { 'import/resolver': { node: { extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'], }, } },
+  settings: {
+    'import/resolver': { node: { extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'] } },
+  },
 };
