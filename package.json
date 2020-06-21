@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint . --cache --ext js,jsx,ts,tsx",
     "lint-fix": "pnpm run lint -- --fix",
-    "prepublishOnly": "pnpm run lint:fix",
+    "prepublishOnly": "pnpm run lint-fix",
     "pub": "pnpm publish --access=public"
   },
   "peerDependencies": {
