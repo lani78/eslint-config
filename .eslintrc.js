@@ -9,7 +9,6 @@
 module.exports = {
   extends: [
     'airbnb',
-    'plugin:import/typescript' /** https://github.com/benmosher/eslint-plugin-import#typescript */,
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     // "plugin:@typescript-eslint/recommended-requiring-type-checking" /** broken atm */,
@@ -51,6 +50,7 @@ module.exports = {
         jsx: 'never',
         ts: 'never',
         tsx: 'never',
+        'd.ts': 'never',
       },
     ],
     'no-console': 0,
@@ -66,4 +66,5 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
     'no-plusplus': ["error", { "allowForLoopAfterthoughts": true }]
   },
+  settings: { 'import/resolver': { node: { extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'], }, } },
 };
